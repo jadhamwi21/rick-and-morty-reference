@@ -1,0 +1,31 @@
+.Container {
+	margin: 0px !important;
+	display: inline-block;
+	height: auto;
+
+	width: 18%;
+	background-color: #28262c;
+	color: #f9f5ff;
+	border-top: solid 1px #5db7de;
+	position: relative;
+	margin: 0px;
+}
+.ListItem {
+	margin-bottom: 10px;
+}
+.ListItem:first-child {
+	margin-top: 10px;
+}
+.ListItem:hover {
+	cursor: pointer;
+	color: #5db7de;
+}
+.Footer {
+	position: absolute;
+	bottom: 4px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.Footer:hover {
+	cursor: default;
+}

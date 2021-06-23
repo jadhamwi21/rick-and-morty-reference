@@ -1,0 +1,15 @@
+body,
+html {
+	font-family: "Viga", sans-serif !important;
+}
+body {
+	overflow-x: hidden;
+}
+[data-aos="fade-in"] {
+	opacity: 0;
+	transform: translateX(-60px);
+	&.aos-animate {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}

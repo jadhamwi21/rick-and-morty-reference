@@ -1,0 +1,10 @@
+.Container {
+	height: auto !important;
+	width: fit-content !important;
+	margin: 0 auto !important;
+	letter-spacing: 2px;
+}
+
+.Typography {
+	padding: 40px 0px 30px 0px;
+}

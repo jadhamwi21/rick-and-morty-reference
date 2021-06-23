@@ -1,0 +1,39 @@
+.Card {
+	height: 560px;
+	width: 300px;
+	box-shadow: -4px 4px 4px grey !important;
+	margin-top: 20px !important;
+	border-radius: 12px !important;
+	background-color: #5d737e !important;
+	letter-spacing: 0.2px;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
+.ImageContainer {
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}
+.Image {
+	height: 100%;
+	width: 100%;
+	border-radius: 8px;
+}
+.GridContainer {
+	margin: 16px auto;
+	height: 100%;
+	width: 90%;
+}
+.Text {
+	margin-top: 30px !important;
+	color: #e3ebff;
+}
+.StatusButton {
+	position: relative;
+	top: 18px;
+	left: 4px;
+	margin: 0px;
+}

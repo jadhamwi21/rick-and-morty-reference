@@ -1,0 +1,12 @@
+.Container {
+	height: fit-content;
+	width: 82%;
+	min-height: 100vh;
+	margin: 0px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 900px) {
+	.Container {
+		width: 100%;
+	}
+}
